@@ -1,0 +1,85 @@
+body {
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-color: black;
+    color: #333;
+    font-size: 16px;
+    direction: ltr;
+}
+
+/*
+configurações do cabeçalho do site
+*/
+
+#img_logo_1 {
+    height: 100px;
+    width: 200px;
+    padding-bottom: 120px;
+}
+
+.seletor_idiomas {
+    position: absolute;
+    right: 120px;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    color:black;
+    text-align: center;
+}
+
+.botao_entrar {
+    position: absolute;
+    right: 50px;
+    border: none;
+    width: 60px;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: red;
+    text-align: center;
+    font-size: smaller;
+    color: white;
+}
+
+.titulo_1 {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+
+.titulo_2 {
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+
+.titulo_3 {
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+.input_email {
+    position: absolute;
+    right: 774px;
+    text-align: left;
+    font-size: large;
+    border: none;
+    background-color: white;
+    width: 500px;
+    height: 50px;
+}
+
+.botao_vamosla {
+    position:absolute;
+    right: 640px;
+    width: 130px;
+    height: 53px;
+    padding: 10px;
+    border: none;
+    background-color: red;
+    font-size: large;
+    color: white;
+}
