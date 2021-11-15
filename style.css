@@ -10,6 +10,12 @@ body {
 configurações do cabeçalho do site
 */
 
+.img_catalogo {
+    background-image: url("src/fundo_catalogo.jpg");
+    width: 2200px;
+    height: 600px;
+}
+
 #img_logo_1 {
     height: 100px;
     width: 200px;
