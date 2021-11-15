@@ -12,7 +12,7 @@ configurações do cabeçalho do site
 
 .img_catalogo {
     background-image: url("src/fundo_catalogo.jpg");
-    width: 2200px;
+    width: 2000x;
     height: 600px;
 }
 
@@ -22,7 +22,19 @@ configurações do cabeçalho do site
     padding-bottom: 120px;
 }
 
-.seletor_idiomas {
+.seletor_idiomas_cabecalho{
+    position: absolute;
+    right: 120px;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    color:black;
+    text-align: center;
+}
+
+.seletor_idiomas_rodape²{
     position: absolute;
     right: 120px;
     width: 100px;
@@ -67,6 +79,11 @@ configurações do cabeçalho do site
     font-size: large;
 }
 
+.redape {
+    text-align: center;
+    font-size: small;
+    color: grey;
+}
 .input_email {
     position: absolute;
     right: 774px;
@@ -88,4 +105,8 @@ configurações do cabeçalho do site
     background-color: red;
     font-size: large;
     color: white;
+}
+
+a {
+    color: grey;
 }
