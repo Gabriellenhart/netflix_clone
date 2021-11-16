@@ -6,6 +6,28 @@ body {
     direction: ltr;
 }
 
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+a {
+    color: grey;
+}
+
+hr {
+    color:rgb(71, 71, 71);
+    height: 5px;
+    border: none;
+    background-color: rgb(71, 71, 71);
+}
+
+span {
+    text-align: center;
+}
+
+
 /*
 configurações do cabeçalho do site
 */
@@ -14,6 +36,7 @@ configurações do cabeçalho do site
     background-image: url("src/fundo_catalogo.jpg");
     width: 2000x;
     height: 600px;
+    opacity: 0.9;
 }
 
 #img_logo_1 {
@@ -34,37 +57,32 @@ configurações do cabeçalho do site
     text-align: center;
 }
 
-.seletor_idiomas_rodape²{
-    position: absolute;
-    right: 120px;
-    width: 100px;
-    height: 30px;
-    background-color: white;
-    border: none;
-    border-radius: 3px;
-    color:black;
-    text-align: center;
-}
 
 .botao_entrar {
     position: absolute;
     right: 50px;
-    border: none;
     width: 60px;
     height: 30px;
     padding: 10px;
-    border: none;
     border-radius: 3px;
+    border: none;
     background-color: red;
     text-align: center;
     font-size: smaller;
     color: white;
 }
 
+.texto_cabecalho {
+    margin-top: 0%;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
 .titulo_1 {
     text-align: center;
     color: white;
-    font-size: xx-large;
+    font-size: 60px;
 }
 
 .titulo_2 {
@@ -79,7 +97,19 @@ configurações do cabeçalho do site
     font-size: large;
 }
 
-.redape {
+#img_tv {
+    margin-left: 300px;
+    width: 400px;
+    height: 200px;
+}
+
+.texto_tv {
+    margin-left: 900px;
+    color: white;
+    font-size: large;
+}
+.texto_rodape {
+    margin-top: 50px;
     text-align: center;
     font-size: small;
     color: grey;
@@ -107,6 +137,18 @@ configurações do cabeçalho do site
     color: white;
 }
 
-a {
+.rodape {
+    margin-bottom: 50px;
+}
+
+.seletor_idiomas_rodape{
+    position: absolute;
+    left: 710px;
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: grey;
+    border-radius: 3px;
     color: grey;
+    text-align: center;
 }
